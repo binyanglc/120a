@@ -1,0 +1,107 @@
+h1 {
+	color: #a4341c;
+    text-align: right; 
+    padding-right: 50px; 
+	font-family: ar-weibeigbstd,sans-serif;
+    font-weight: 1900;
+    font-style: normal;
+}
+
+h2 {
+	text-align: right;
+	padding-right: 50px;
+}
+
+#lessontitle {
+	text-align: left;
+}
+
+h3 {
+    color: #990000;
+}
+
+
+.headeradmin {
+	left:0px;
+	top:0px;
+	height:20px;
+}
+
+
+.navbar-header {
+	padding-left: 40px;
+	padding-top: 0px;
+	
+}
+
+.nav {
+	padding-top: 40px;
+	padding-right: 60px;
+	
+}
+
+.navbar {
+	background-color: white;
+	border-color: white;
+}
+
+.content {
+	max-width: 1200px;
+    margin: auto;
+    background: white;
+    padding: 1px;
+    padding-top:0;
+	background-color: white;
+}
+
+.support {
+	max-width: 1200px;
+    margin: auto;
+    background: white;
+    padding: 1px;
+    padding-top:0;
+    padding-bottom:10px;
+	background-color: white;
+	
+}
+
+
+.active-cyan .fa, .active-cyan-2 .fa {
+  color: #4dd0e1;
+  
+}
+
+.form-inline{
+    padding-left: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+    
+.jumbotron {
+background-image: url("img/120a7.png");
+background-size: cover;
+height: 400px;
+}
+
+.headlesson {
+	background-color: #c9dfec; 
+	text-align: center; 
+	border-radius: 25px;
+}
+
+
+
+
