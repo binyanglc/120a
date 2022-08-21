@@ -52,13 +52,15 @@ h3 {
     max-width: 1200px;
     margin: auto;
     background: white;
-    padding: 0;
-    padding-top:0;
+    padding: 0px;
+    padding-top:0px;
     background-color: white;
 }
 
 body {
-    padding: 0;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 table {
