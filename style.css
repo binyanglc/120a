@@ -46,22 +46,24 @@ h3 {
 .form-inline{
     padding-left: 100px;
 }
-*/
-
-.container {
-    max-width: 1200px;
-    margin: auto;
-    background: white;
-    padding: 0px;
-    padding-top:0px;
-    background-color: white;
-}
 
 body {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
 }
+
+*/
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    padding-top:0px;
+    background-color: white;
+}
+
+
 
 table {
     border-collapse: collapse;
