@@ -1,0 +1,160 @@
+
+h1 {
+	font-size: 60px;
+	font-family: ar-weibeigbstd,sans-serif;
+    font-weight: 1900;
+    font-style: normal;
+	
+}
+
+#lessontitle {
+	text-align: left;
+}
+
+.container {
+	width: 1200px;
+    margin: auto;
+    padding: 1px;
+    padding-top: 4px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+
+
+.jumbotron {
+    background-image: url("img/bg0.jpg");
+    background-size: cover;
+    height: 75%;
+	margin-left: auto;
+	padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+
+.lessonmenu {
+	padding-right: 10px;
+}
+
+.video-section, .music-section, .about-section, .head-section{
+	height: 100vh;
+	display: flex;
+	align-itms:center;
+}
+
+
+.reading-section{
+	height: 100vh;
+	display: flex;
+	background:#FFFFFF;
+}
+
+
+.video-section{
+	background: #ccc3c3;
+}
+
+.music-section{
+	background-color: #e1e1df;
+}
+
+.about-section{
+	background-color: #ccc3c3;
+}
+
+.head-section{
+	background-image: url("img/bg0.jpg");
+	background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin: 8px -16px;
+	
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #e1e1df;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* credit to w3school https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+
+
